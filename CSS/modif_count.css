@@ -1,0 +1,25 @@
+.modif_account
+{
+    text-align: center;
+    background: url("Images/wallpaper-minichat.jpg") fixed center;
+    font-family: "Arial", "serif";
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.retour
+{
+    color: white;
+    /*align-content: center;*/
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(to right, black , #706A6A);
+    height: 30px;
+}
+
+.retour_div, .retour_form
+{
+    text-align: center;
+    position: relative;
+    bottom: 6px;
+}

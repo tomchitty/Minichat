@@ -1,0 +1,110 @@
+h2{
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    right: 1%;
+}
+
+.my_count
+{
+    color: white;
+    align-content: center;
+    text-align: right;
+    border-radius: 10px;
+    background: linear-gradient(to left, black , #706A6A);
+    box-shadow: 2px 2px 5px black;
+    height: 25px;
+    position: relative;
+    right: 5px;
+}
+
+.my_count:hover{
+    box-shadow: 2px 2px 5px #706A6A;
+    cursor: pointer;
+}
+
+.my_count_form
+{
+    text-align: right;
+}
+
+.my_count_div
+{
+    position: relative;
+    bottom: 95%;
+    right: 10.5%;
+    margin-left: 93%;
+}
+
+.valid_modif, .retour
+{
+    color: white;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(to right, black , #706A6A);
+    box-shadow: 2px 2px 5px black;
+    height: 30px;
+    width: 80px;
+    border-color: #A2C614;
+}
+
+.retour{
+    width: 60px;
+}
+
+.valid_modif:hover, .retour:hover{
+    box-shadow: 2px 2px 5px #706A6A;
+    cursor: pointer;
+}
+
+.modif_avatar, .delete_count{
+    color: #81EEDB;
+    text-decoration: none;
+}
+
+.modif_avatar:hover{
+    color: #A2C614;
+    text-decoration: underline;
+}
+
+.delete_count:hover{
+    color: #E9383F;
+    text-decoration: underline;
+}
+
+.delete_yes{
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.delete_no{
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.delete_no:hover{
+    color: #A2C614;
+}
+
+.delete_yes:hover{
+    color: #E9383F;
+}
+
+.required_champs{
+    color: #E9383F;
+    font-style: italic;
+}
+
+.logo_count{
+    max-height: 30px;
+    max-width: 30px;
+    position: relative;
+    right: 10px;
+}

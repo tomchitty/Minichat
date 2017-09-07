@@ -1,0 +1,58 @@
+h2{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+form{
+    text-align: center;
+}
+
+body{
+    font-family: "Arial", "serif";
+}
+
+.error_transfert{
+    text-align: center;
+    color: #E9383F;
+    font-style: italic;
+}
+
+.img_bandeau{
+    max-width:200px;
+    max-height:300px;
+}
+
+.div_avatar{
+    text-align: center;
+}
+
+.load_file{
+    color: white;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(to right, black , #706A6A);
+    box-shadow: 2px 2px 5px black;
+    height: 30px;
+    width: 80px;
+    border-color: #A2C614;
+}
+
+.load_file:hover{
+    box-shadow: 2px 2px 5px #706A6A;
+    cursor: pointer;
+}
+
+.select_file{
+    display: none;
+}
+
+.label-file{
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.label-file:hover {
+    color: #25a5c4;
+}

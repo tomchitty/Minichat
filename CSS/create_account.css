@@ -1,0 +1,59 @@
+body
+{
+    background: url("Images/wallpaper-minichat.jpg") fixed center;
+    font-family: "Arial", "serif";
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.confirmer
+{
+    color: white;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(to right, black , #706A6A);
+    box-shadow: 2px 2px 10px black;
+    width: 80px;
+    height: 30px;
+}
+
+.confirmer:hover
+{
+    box-shadow: 2px 2px 5px #706A6A;
+    cursor: pointer;
+}
+
+.retour_form
+{
+    text-align: right;
+}
+
+.retour
+{
+    color: white;
+    align-content: center;
+    text-align: right;
+    border-radius: 10px;
+    background: linear-gradient(to right, black , #706A6A);
+    box-shadow: 2px 2px 5px black;
+}
+
+.retour:hover
+{
+    box-shadow: 2px 2px 5px #706A6A;
+    cursor: pointer;
+}
+
+.error_mdp, .required_champs{
+    color: #E9383F;
+    font-style: italic;
+}
+
+.logo_create_count{
+    max-height: 50px;
+    max-width: 50px;
+    vertical-align: middle;
+    position: relative;
+    right: 15px;
+}

@@ -1,0 +1,17 @@
+.foot{
+    position:absolute;
+    background-color: slategrey;
+    margin-left: -9px;
+    height: 10%;
+    width: 100%;
+    opacity: 0.4;
+    margin-top: 1em;
+}
+
+.copyright{
+    font-family: "Arial", "serif";
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    top: 5px;
+}
